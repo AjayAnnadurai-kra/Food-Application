@@ -1,0 +1,31 @@
+.cakebox{
+    padding: 10px 5px;
+}
+.cakebox image
+{
+ width: 50%;
+ height: 5px;
+ object-fit: cover;
+ border-radius: 50px;
+ padding: 2px 5px;
+}
+.cakebox h1
+{
+    font-weight: bold;
+    color: blue;
+}
+.buybtn
+{
+    color: black;
+    background-color: forestgreen;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img{
+    border-radius: 5px;
+    width: 160px;
+    height: 160px;
+}

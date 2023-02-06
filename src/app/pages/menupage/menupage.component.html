@@ -1,0 +1,15 @@
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-6" *ngIf="menuData">
+            <button class="btn btn-sm btn-dark" (click)="back()">Back</button>
+            <div class="p-2 card my-3">
+
+            <img src="{{menuData[0].cakeimage}}" class="imge" >
+            <h1>{{menuData[0].cakename}}</h1>
+            <p>{{menuData[0].cakeprice | currency:'INR'}}</p>
+            
+            <button class="btn btn-outline-success" (click)="onClickPayment()">Taste Now</button>
+        </div>
+        </div>
+    </div>
+</div>

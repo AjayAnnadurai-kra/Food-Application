@@ -1,0 +1,12 @@
+<div class="container mt-5 mb-" >
+    <div class="row">
+        <div class="col lg-4" *ngFor= "let cd of cakedata">
+            <div class="p-2 card my-3">
+                <img src="{{cd.cakeimage}}"  class="img">
+                <h1>{{cd.cakename}}</h1>
+                <p>{{cd.cakeprice | currency :'INR'}}</p>
+                <a class="btn btn-outline-success" [routerLink]="['/menu',cd.id]"><i class="bi bi-cart4"></i>Order Now&nbsp;</a>
+            </div>
+        </div>
+    </div>
+</div>

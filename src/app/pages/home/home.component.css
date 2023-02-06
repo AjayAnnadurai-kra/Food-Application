@@ -1,0 +1,36 @@
+.banner
+{
+    background-image: url(../../../assets/bannerimg.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+
+}
+.banner h1
+{
+    color: brown;
+    font-size: 40px;
+    top: 20%;
+    left: 3%;
+    position:absolute;
+    font-style: italic;
+    font-weight: bold;
+    font-family:cursive;
+}
+.arrow
+{
+    font-weight: bold;
+    text-decoration: none;
+    /* background-color:aliceblue; */
+    /* color: black; */
+    border-radius: 7px;
+    padding: 8px 10px;
+    top: 30%;
+    position: absolute;
+    left: 25%;
+}
+.arrow:hover
+{
+    background-color:rgb(129, 43, 43);
+    
+}
